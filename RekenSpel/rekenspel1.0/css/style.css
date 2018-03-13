@@ -1,0 +1,22 @@
+.VragenBox {
+    text-align: center;
+
+}
+.start{
+  margin: auto;
+  text-align: center;
+  padding: 70px 0;
+
+}
+.GoedEnFout{
+  text-align: right;
+  margin: auto;
+  padding: 50px 20;
+}
+html {
+  background: url(jimbo.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
