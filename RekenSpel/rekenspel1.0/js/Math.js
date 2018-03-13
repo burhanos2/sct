@@ -1,5 +1,7 @@
 const mybutton = document.getElementById('mybutton');
 const antwoord = document.getElementById('antwoord');
+antwoord.addEventListener('keydown',keyHandler);
+
 let checks;
 let vraag = 1;
 let goed = 0;
@@ -19,7 +21,13 @@ function Mathrandom() {
 
   checks = equals1 * equals2;
 }
-function Checker(){
+
+function keyHandler(event)
+{
+  if(event.KeyCode == 13)
+  {}
+
+
     if (checks == antwoord.value) {
       goed++;
       document.getElementById('goed').innerHTML = goed;
