@@ -1,1 +1,1 @@
-"# sct" 
+Scripting assignments for school
